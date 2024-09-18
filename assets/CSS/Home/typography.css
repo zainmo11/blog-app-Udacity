@@ -1,0 +1,30 @@
+/* Typography */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    @media (max-width: 425px) {
+        font-size: 2rem;
+        padding-bottom: 10px;
+    }
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #007bff;
+}
+
+p {
+    font-size: 1rem;
+}
+
+a {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #007bff;
+}

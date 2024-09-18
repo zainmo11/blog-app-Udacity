@@ -1,0 +1,52 @@
+/* Basic styling for the footer */
+footer {
+    background-color: #2b2b2b;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 50px;
+}
+footer p, footer a {
+    color: #343a40;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+}
+footer p a {
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 2rem;
+}
+footer a:hover {
+    color: #0056b3;
+}
+.social-media {
+    margin: 10px 0;
+}
+.social-media a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    transition: background-color 0.3s;
+
+}
+.social-media a img {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+.social-media a:hover {
+    background-color: #666666;
+}
+.social-media .facebook { background-color: #3b5998; }
+.social-media .twitter { background-color: #1da1f2; }
+.social-media .instagram { background-color: #e1306c; }
+.social-media .linkedin { background-color: #0077b5; }
+.social-media .github { background-color: #333; }
+.social-media p { color: #ffffff; margin-top: 20px }
